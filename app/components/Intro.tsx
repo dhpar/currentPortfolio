@@ -15,7 +15,7 @@ export function Intro () {
           <h2 className="text-xl md:text-2xl text-zinc-700 dark:text-amber-200 sm:text-3xl">
             {resume.title}
           </h2>
-          <span>|</span>
+          <span className="md:hidden">|</span>
           <address className="flex">
             <LocationIcon className="w-fit mr-2"/>
             <span>{resume.location}</span>
