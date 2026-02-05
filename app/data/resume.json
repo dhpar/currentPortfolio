@@ -28,7 +28,7 @@
     },
     {
       "title": "Databases & Data Management",
-      "tech": [ "PostgreSQL (familiar)", "MongoDB (familiar)", "Firebase (familiar)" ]
+      "tech": [ "PostgreSQL", "MongoDB", "Firebase" ]
     },
     {
       "title": "Testing & Analytics",
