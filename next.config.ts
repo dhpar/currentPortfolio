@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/public",
+  basePath: "",
   images: {
     unoptimized: true, // next/image needs this for static export
   },
