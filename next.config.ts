@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: process.env.NODE_ENV === "production"? "/2026portfolio" : "",
+  basePath: process.env.NODE_ENV === "production"? "/currentPortfolio" : "",
   images: {
     unoptimized: true, // next/image needs this for static export
   },

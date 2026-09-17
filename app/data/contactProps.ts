@@ -23,7 +23,7 @@ const contactProps = [
     { 
         href: contact.email, 
         Icon: Briefcase, 
-        label: 'Mail' 
+        label: 'EMail' 
     },
 ];
 
