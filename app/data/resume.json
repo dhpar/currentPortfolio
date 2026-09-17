@@ -5,8 +5,8 @@
   "openTo": "Remote or Hybrid",
   "contact": {
     "email": "mailto:davhern@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/davidhparramon/",
-    "github": "https://github.com/dhpar/"
+    "linkedin": "https://www.linkedin.com/in/davidhparramon",
+    "github": "https://github.com/dhpar"
   },
   "summary": "Senior Full-stack engineer with strong focus on Front End, with 10+ years of experience building React/Next.js applications, complex UI systems, and scalable SaaS products. Experience across USA and EU markets. Expertise in performance optimization, design systems, modern FE architectures, and product-focused development.",
   "skills": [
@@ -32,7 +32,7 @@
     },
     {
       "title": "Testing & Analytics",
-      "tech": [ "Jest", "Storybook", "Google Analytics 4", "Tag Manager" ]
+      "tech": [ "Jest", "Storybook", "Google Analytics 4", "Tag Manager", "Playwright" ]
     },
     {
       "title": "Other Skills",
@@ -44,7 +44,7 @@
       "company": "Professional Development & Projects",
       "role": "Full Stack Developer (Self-directed)",
       "start": "Dec 2024",
-      "end": "Present",
+      "end": "Current",
       "summary":  "Strengthened full-stack development expertise through personal projects.",
       "highlights": [
         "Continuing education and hands-on projects to stay current with industry trends and technologies.",
