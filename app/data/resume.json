@@ -8,35 +8,82 @@
     "linkedin": "https://www.linkedin.com/in/davidhparramon",
     "github": "https://github.com/dhpar"
   },
-  "summary": "Senior Full-stack engineer with strong focus on Front End, with 10+ years of experience building React/Next.js applications, complex UI systems, and scalable SaaS products. Experience across USA and EU markets. Expertise in performance optimization, design systems, modern FE architectures, and product-focused development.",
+  "summary": [
+    "I build the frontend that makes AI features usable, and increasingly the backend behind them too. At Nerdery, I implemented the frontend for Purina's Petfinder AI features: AWS-based image analysis to detect pet size, color, and weight, plus AI-generated bio descriptions to help shelters get pets adopted faster.",
+    "10+ years as a Senior Full-Stack Engineer (React, Next.js, TypeScript) for enterprise clients across the US and EU, including JPMorgan Chase, US Bank, Citi, Schneider, Grifols, and Roche. Strong in frontend architecture, design systems, accessibility (WCAG 2.2), and cloud deployment on GCP and AWS.",
+    "Open to remote and hybrid roles in full-stack, frontend, or AI-integrated engineering."
+  ],
   "skills": [
     {
       "title": "Frontend",
-      "tech": [ "React", "Next.js", "Gatsby", "Tanstack", "TypeScript", "JavaScript (ES6+", "jQuery", "Tailwind", "SASS", "CSS Modules", "CSS-in-JS", "Formik", "Twig" ]
+      "tech": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tanstack",
+        "Tailwind",
+        "SASS",
+        "CSS Modules",
+        "CSS-in-JS",
+        "Formik",
+        "Twig"
+      ]
     },
     {
       "title": "AI & LLMs",
-      "tech": [ "MCP Integration", "AI/LLM Integrations", "RAG", "Image Recognition", "Content Generation", "Prompt Engineering", "OpenAI", "Azure AI", "Google Generative AI" ]
+      "tech": ["MCP Integration", "AI/LLM Integrations", "RAG", "Image Recognition", "Content Generation", "Prompt Engineering", "OpenAI", "Azure AI", "Google Generative AI"]
     },
     {
       "title": "Backend & APIs",
-      "tech": [ "Node.js", "Express", "Python", "GraphQL", "REST", "PHP", "Drupal" ]
+      "tech": ["Node.js", "Express", "Python", "GraphQL", "REST", "PHP", "Drupal"]
     },
     {
       "title": "Cloud & DevOps",
-      "tech": [ "Docker", "Google Cloud Platform (GCP)", "AWS", "VirtualBox", "Apache" ]
+      "tech": ["Docker", "Google Cloud Platform (GCP)", "AWS", "VirtualBox", "Apache"]
     },
     {
       "title": "Databases & Data Management",
-      "tech": [ "PostgreSQL", "MongoDB", "Firebase" ]
+      "tech": ["PostgreSQL", "MongoDB", "Firebase"]
     },
     {
       "title": "Testing & Analytics",
-      "tech": [ "Jest", "Storybook", "Google Analytics 4", "Tag Manager", "Playwright" ]
+      "tech": ["Jest", "Storybook", "Google Analytics 4", "Tag Manager", "Playwright"]
     },
     {
       "title": "Other Skills",
-      "tech": [  "Accessibility (WCAG)", "CI/CD pipelines" ]
+      "tech": ["Accessibility (WCAG)", "CI/CD pipelines"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Network Monitor",
+      "link": "https://github.com/dhpar/network-diagnostics",
+      "description": "Locally-hosted tool for diagnosing and monitoring network and Wifi issues dashboard with real-time visualization.",
+      "tech": ["React", "Typescript", "Tanstack", "FastAPI", "Python", "Scapy"]
+    },
+    {
+      "name": "Personal portfolio",
+      "link": "https://github.com/dhpar/2026portfolio",
+      "description": "Personal portfolio with full CI/CD pipeline deployed on Vercel and Github.",
+      "tech": ["Next.js", "Typescript", "Tanstack"]
+    },
+    {
+      "name": "Exit routine",
+      "link": "https://github.com/dhpar/exitroutine",
+      "description": "A daily dashboard for parents - weather forecast, kids' schedule, and homework due, all in one glance before heading out the door.",
+      "tech": ["Next.js", "NextAuth", "Typescript", "Tailwind", "Tanstack", "Jest"]
+    },
+    {
+      "name": "Personal Assistant",
+      "link": "https://github.com/dhpar/persAssis",
+      "description": "Privacy-aware, local-first AI assistant with React frontend and FastAPI backend. Runs on consumer hardware with verifiable dual-model reasoning.",
+      "tech": ["React", "Typescript", "Tailwind", "Python", "Langchain", "FastAPI", "Olama", "RAG"]
+    },
+    {
+      "name": "Jobseeker",
+      "link": "https://github.com/dhpar/jobSeeker",
+      "description": "Scrapes and aggregates job listings, matches them against a candidate profile via API.",
+      "tech": ["React", "Typescript", "Tailwind", "Axios", "Python", "Langchain", "FastAPI", "Olama"]
     }
   ],
   "experience": [
@@ -45,14 +92,14 @@
       "role": "Full Stack Developer (Self-directed)",
       "start": "Dec 2024",
       "end": "Current",
-      "summary":  "Strengthened full-stack development expertise through personal projects.",
+      "summary": "Strengthened full-stack development expertise through personal projects.",
       "highlights": [
         "Continuing education and hands-on projects to stay current with industry trends and technologies.",
         "Built full-stack apps to deepen server-side and cloud deployment knowledge.",
         "Experimented with AI/LLM integrations and GraphQL API development.",
         "Contributing to open-source and monitoring emerging technologies."
       ],
-      "tech": [ "Python", "Next.js", "React", "Node.js", "GraphQL", "TypeScript", "AI/LLM APIs", "CI/CD pipelines", "GCP", "AWS" ]
+      "tech": ["Python", "Next.js", "React", "Node.js", "GraphQL", "TypeScript", "AI/LLM APIs", "CI/CD pipelines", "GCP", "AWS"]
     },
     {
       "company": "Nerdery",
@@ -65,7 +112,7 @@
         "Integrated AI image recognition and LLM-based content generation.",
         "Migrated analytics to GA4 and built event-based tracking pipelines."
       ],
-      "tech": [ "Next.js", "React", "Node.js", "GraphQL", "TypeScript", "GCP", "AWS", "PHP", "Drupal", "Twig", "AI APIs" ]
+      "tech": ["Next.js", "React", "Node.js", "GraphQL", "TypeScript", "GCP", "AWS", "PHP", "Drupal", "Twig", "AI APIs"]
     },
     {
       "company": "CxLoyalty",
@@ -79,7 +126,7 @@
         "Redesigned checkout modules increasing transaction completion.",
         "Collaborated with cross-functional teams to deliver quality products on time."
       ],
-      "tech": [ "React", "Backbone", "Node.js", "TypeScript", "SASS", "CSS Modules" ]
+      "tech": ["React", "Backbone", "Node.js", "TypeScript", "SASS", "CSS Modules"]
     },
     {
       "company": "Untoo Design",
@@ -110,7 +157,7 @@
   ],
   "education": {
     "degree": "Network Communications Engineering - Bachelors Degree",
-    "link": "https://eetac.upc.edu/en/study/bachelors-deegrees/telecommunications-systems-1",    
+    "link": "https://eetac.upc.edu/en/study/bachelors-deegrees/telecommunications-systems-1",
     "institution": "UPC - Universitat Politecnica de Catalunya (Catalan Politecnics University)",
     "graduationYear": 2012,
     "focus": "Network communications protocols, full-stack web development, network systems architecture, cryptography, electronics, statistics, CI/CD.",

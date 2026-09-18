@@ -97,7 +97,7 @@ const Menu = () => {
                             <Link href={`#${href}`} className="flex border border-solid border-transparent capitalize font-extrabold
                             hover:bg-amber-200 hover:text-slate-950 hover:border hover:border-slate-950 hover:border-solid focus:bg-amber-200 focus:text-slate-950 focus:border focus:border-slate-950 focus:border-solid px-4 py-2 hover:rounded-full focus:rounded-full">
                                 <Icon className='w-fit mr-2' />
-                                <span>{label}</span>
+                                {label}
                             </Link>
                         </li>)
                     )}

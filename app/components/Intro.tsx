@@ -18,7 +18,11 @@ export function Intro () {
           <span>{resume.location}</span>
         </address>          
       </div>
-      <p>{resume.summary}</p>
+      <ul className="flex flex-col gap-y-2">
+        {resume.summary.map((paragraph,i) => 
+          <li key={i}><p>{paragraph}</p></li>
+        )}
+      </ul>
     </div>
   );
 }
