@@ -1,4 +1,5 @@
 type TTech = Array<string>;
+
 export interface Resume {
   name: string;
   title: string;

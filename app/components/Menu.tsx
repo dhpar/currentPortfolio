@@ -94,7 +94,7 @@ const Menu = () => {
                 <ul className="lg:flex gap-8 fixed top-0 right-0 rounded-full border-amber-200 border mt-4 mr-4 bg-slate-950/30 backdrop-blur-sm">
                     {progresiveSectionProps.map(({ href, Icon, label }, i) => (
                         <li key={i} className='flex'>
-                            <Link href={`#${href}`} className="flex border border-solid border-transparent capitalize font-extrabold
+                            <Link href={href} className="flex border border-solid border-transparent capitalize font-extrabold
                             hover:bg-amber-200 hover:text-slate-950 hover:border hover:border-slate-950 hover:border-solid focus:bg-amber-200 focus:text-slate-950 focus:border focus:border-slate-950 focus:border-solid px-4 py-2 hover:rounded-full focus:rounded-full">
                                 <Icon className='w-fit mr-2' />
                                 {label}

@@ -10,7 +10,7 @@
   },
   "summary": [
     "I build the frontend that makes AI features usable, and increasingly the backend behind them too. At Nerdery, I implemented the frontend for Purina's Petfinder AI features: AWS-based image analysis to detect pet size, color, and weight, plus AI-generated bio descriptions to help shelters get pets adopted faster.",
-    "10+ years as a Senior Full-Stack Engineer (React, Next.js, TypeScript) for enterprise clients across the US and EU, including JPMorgan Chase, US Bank, Citi, Schneider, Grifols, and Roche. Strong in frontend architecture, design systems, accessibility (WCAG 2.2), and cloud deployment on GCP and AWS.",
+
     "Open to remote and hybrid roles in full-stack, frontend, or AI-integrated engineering."
   ],
   "skills": [
@@ -140,19 +140,6 @@
         "Optimized front-end performance and accessibility."
       ],
       "tech": ["React", "HTML5", "CSS3", "SASS", "Android SDK"]
-    },
-    {
-      "company": "Schneider Electric",
-      "role": "Full Stack Engineer (Intern)",
-      "start": "Jun 2011",
-      "end": "Nov 2011",
-      "summary": "Developed a remote lab system for managing virtual machines and integrating video surveillance for remote access to lab equipment.",
-      "highlights": [
-        "Developed remote lab system with Python, PHP, PostgreSQL.",
-        "Implemented video surveillance integration.",
-        "Documented MVP technical specifications."
-      ],
-      "tech": ["Python", "PHP", "Moodle", "PostgreSQL", "VirtualBox", "Apache"]
     }
   ],
   "education": {

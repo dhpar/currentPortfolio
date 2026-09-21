@@ -1,6 +1,9 @@
+import Link from "next/link";
 import contactProps from "../data/contactProps";
 
 export const Contact = () => (
+    <div>
+        <a href="www.google.com" target="_blank" rel="noopener noreferrer">test</a>
     <ul>
         {contactProps.map(({href, Icon, label}, i) => (
             <li key={i}>
@@ -10,4 +13,6 @@ export const Contact = () => (
                 </a>
             </li>
         ))}
-    </ul>);
+    </ul>
+    </div>
+    );
